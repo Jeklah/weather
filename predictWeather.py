@@ -31,9 +31,9 @@ def main(location, api_key, wind):
 
     """
     weather, windWeather = current_weather(location, api_key)
-    click.echo('The weather in' + location + 'right now: ' + weather + '.')
+    click.echo('The weather in ' + location + ' right now: ' + weather + '.')
     if wind:
-        print "The wind speed in ", location,  "is: ", windWeather, "."
+        print "The wind speed in", location,  "is:", windWeather, "."
 
 
 if __name__ == "__main__":
